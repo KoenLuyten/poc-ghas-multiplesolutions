@@ -82,8 +82,8 @@ jobs:
     # 📚 See https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
     - if: matrix.build-mode == 'manual'
       run: |
-        dotnet build 'sol1/sol1.sln'
-        dotnet build 'sol2/sol2.sln'
+        dotnet build 'sol1/ConsoleApp1/ConsoleApp1.csproj'
+        dotnet build 'sol2/ConsoleApp1/ConsoleApp1.csproj'
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3

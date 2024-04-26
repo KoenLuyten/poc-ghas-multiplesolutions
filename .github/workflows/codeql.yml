@@ -47,9 +47,11 @@ jobs:
         - language: csharp
           build-mode: manual
           solution-path: 'sol1/sol1.sln'
+          category: sol1
         - language: csharp
           build-mode: manual
           solution-path: 'sol2/sol2.sln'
+          category: sol2
         # CodeQL supports the following values keywords for 'language': 'c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'swift'
         # Use `c-cpp` to analyze code written in C, C++ or both
         # Use 'java-kotlin' to analyze code written in Java, Kotlin or both
@@ -90,4 +92,4 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
       with:
-        category: "/language:${{matrix.language}}"
+        category: "/language:${{matrix.language}}-${{matrix.category}}"

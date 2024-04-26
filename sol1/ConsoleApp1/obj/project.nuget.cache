@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TtW/JrPSCgYzI525MFjoGTK8hHE+0OeFvm6edENo+XxYw0VymJE9dMEdvGovHq/jZ0sUBwiYMPYcwG9pCzAcGg==",
+  "dgSpecHash": "KdTwxBko6Dvy4BADAKb7JANeCy5yuK4AcJ8aau7sdNTLDhWBGZrM9xhX2jRQiN//W0K5zxhhAV/Mf8MiWINbCg==",
   "success": true,
   "projectFilePath": "C:\\code\\poc-ghas-multiplesolutions\\sol1\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\KoenLuyten\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
